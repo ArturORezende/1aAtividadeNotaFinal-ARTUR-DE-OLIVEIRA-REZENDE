@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Produtos</title>
+
+  <style>
+    table {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table caption {
+      font-style: italic;
+      font-size: 20px;
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    table td, table th {
+      text-align: left;
+      padding: 16px;
+      border: 1px solid #ccc;
+    }
+
+    table th {
+      background-color: #107c10;
+      color: white;
+    }
+    table tr:hover {
+      cursor: default;
+      background-color: #eee;
+    }
+    td.preco {
+      font-weight: 600;
+      white-space: nowrap;
+    }
+  </style>
+  
+</head>
+<body>
+
+  <table>
+    <caption>Tabela de Produtos</caption>
+    <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Categoria e Descrição</th>
+          <th>Preço em Reais</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Headset Gamer</td>
+          <td>Logitech G Astro A10, Drivers 40mm, P3, PS e PC, Branco.</td>
+          <td class="preco">R$ 429,00</td>
+        </tr>
+        <tr>
+          <td>Processador</td>
+          <td>AMD Ryzen 7 5700X3D, 3.6 GHz, (4.1GHz Max Turbo), Cachê 4MB, 8 Núcleos, 16 Threads, AM4.</td>
+          <td class="preco">R$ 1.397,90</td>
+        </tr>
+        <tr>
+          <td>SSD</td>
+          <td>Kingston NV2, 1 TB, M.2 2280 PCIe, NVMe, Leitura: 3500 MB/s e Gravação: 2100 MB/s.</td>
+          <td class="preco">R$ 399,99</td>
+        </tr>
+        <tr>
+          <td>Memória RAM</td>
+          <td>Kingston Fury Beast, 8GB, 3200MHz, DDR4, CL16, Preto.</td>
+          <td class="preco">R$ 119,99</td>
+        </tr>
+        <tr>
+          <td>Fonte</td>
+          <td>MSI MAG A650BN, 650W, 80 Plus Bronze, PFC Ativo, Com Cabo, Preto.</td>
+          <td class="preco">R$ 279,99</td>
+        </tr>
+    </tbody>
+   
+  </table>
+  </div>
+</body>
+</html>
