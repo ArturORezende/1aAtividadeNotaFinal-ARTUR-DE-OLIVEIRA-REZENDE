@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        background-color: #107c10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .perfil {
+        padding: 20px;
+        width: 550px;
+        background-color: white;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      .img-perfil {
+        width: 120px;
+        border-radius: 50%;
+        border: white 5px solid;
+        transform: translateY(-65px);
+      }
+      .container-text {
+        margin-top: -40px;
+        text-align: center;
+      }
+      h1.name {
+        margin: 0;
+      }
+
+      h5.matricula {;
+        font-weight: 400;
+        color: grey;
+      }
+      
+      h3.titulo {
+        margin-top: -20px;
+        font-weight: 400;
+        color: darkgrey;
+      }
+      h3.desc {
+        font-weight: 400;
+      }
+
+      .socials {
+        font-weight: 400;
+        margin: 20px 0;
+      }
+      .socials a {
+        color: #107c10;
+        margin: 0 20px;
+      }
+      .socials a:hover {
+        color: #9bf00b;
+      }
+
+      button {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #107c10;
+        color: white;
+        font-weight: 700;
+        margin: 0 20px;
+      }
+      button:hover {
+        cursor: pointer;
+        transform: scale(110%);
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil pessoal</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="perfil">
+
+        <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" alt="perfil" class="img-perfil">
+
+        <div class="container-text">
+          
+          <h1 class="name">Artur de Oliveira Rezende</h1>
+
+          <h5 class="matricula">202402307304</h5>
+
+          <h3 class="titulo">Desenvolvedor Web</h3>
+          
+          <h3 class="desc">Olá! Meu nome é Artur, sou desenvolvedor web e estou aprendendo HTML, CSS, JavaScript e outras tecnologias da Ciência da Computação.</h3>
+          
+        </div>
+        
+        <div class="button-container">
+          
+          <button type="submit">HTML</button>
+          <button type="submit">CSS</button>
+          <button type="submit">JavaScript</button>
+          <button type="submit">C++</button>
+          
+        </div>
+        
+        <div class="socials">
+          
+          <a href="https://github.com" target="_blank">Github</a>
+          <a href="https://twitter.com" target="_blank">Twitter</a>
+          <a href="https://Linkedin.com" target="_blank">Linkedin</a>
+
+        </div>
+
+      </div>
+    </div>
+    <script>
+      
+    </script>
+  </body>
+</html>
